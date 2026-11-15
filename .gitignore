@@ -26,4 +26,4 @@ data/
 gen_data.py
 figs/
 results/
-code/make_slide_figs.py
+src/make_slide_figs.py

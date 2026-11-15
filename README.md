@@ -12,19 +12,19 @@ This repository reimplements the method, reproduces the paper's examples and mot
 
 ## Contents
 
-All code is in `code/`. See `code/README.md` for what each file does.
+All code is in `src/`. See `src/README.md` for what each file does.
 
 | File | What it does |
 |---|---|
-| `code/core.py` | ZOH matrices, the paper's BVP interpolator, baselines, simulators, metrics |
-| `code/core_ext.py` | Extensions: any-controller simulator with delay, augmented BVP, input-aware BVP, Kalman smoother |
-| `code/exp1_*.py` ... `code/exp15_*.py` | The 15 experiments |
-| `code/run_all.py` | Runs every experiment and writes a summary |
+| `src/core.py` | ZOH matrices, the paper's BVP interpolator, baselines, simulators, metrics |
+| `src/core_ext.py` | Extensions: any-controller simulator with delay, augmented BVP, input-aware BVP, Kalman smoother |
+| `src/exp1_*.py` ... `src/exp15_*.py` | The 15 experiments |
+| `src/run_all.py` | Runs every experiment and writes a summary |
 
 ## Running
 
 ```bash
-cd code
+cd src
 python3 -m venv .venv && .venv/bin/pip install numpy scipy matplotlib
 .venv/bin/python run_all.py      # all experiments, about 10 s
 ```

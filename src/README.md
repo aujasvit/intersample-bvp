@@ -1,7 +1,7 @@
 # Code: Haba & Budai (2025) reproduction + stress tests
 
 ```bash
-cd code
+cd src
 python3 -m venv .venv && .venv/bin/pip install numpy scipy matplotlib   # once
 .venv/bin/python run_all.py          # all experiments (~10 s)
 .venv/bin/python exp5_noise.py       # or any single experiment
