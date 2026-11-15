@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.synctex.gz
+build.log
+exp_build.log
+
+# macOS
+.DS_Store
+
+# Private material (kept locally, not published)
+*.tex
+*.pdf
+slides/
+demo/
+data/
+gen_data.py
+figs/
+results/
+code/make_slide_figs.py
